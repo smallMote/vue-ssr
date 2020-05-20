@@ -30,7 +30,6 @@ yarn build:server
 ```bash
 webpack-node-externals lodash.merge -D
 ```
-主要是将targe指向node，然后分别生成客户端和移动端的`manifest.json`资源指向文件。
 
 ### 服务端打包失败
 错误：
